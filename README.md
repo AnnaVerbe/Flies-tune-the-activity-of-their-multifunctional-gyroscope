@@ -1,1 +1,1 @@
-# Flies-actively-tune-the-sensitivity-of-their-multifunctional-gyroscope
+# Flies actively tune the sensitivity of their multifunctional gyroscope
