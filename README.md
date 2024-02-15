@@ -7,10 +7,10 @@ You will find here the data files and scripts associated with:
 
 ## Fig 1 to 4: 
 
-Run XXXX 
+Run the python script 'Script_Fig1to4.py' 
 
 ``` 
-Data from  XXX: see XXX
+Data are located in the 'Fig1to4' in pickle format. 
 ```
 
 ## Fig 5: 
