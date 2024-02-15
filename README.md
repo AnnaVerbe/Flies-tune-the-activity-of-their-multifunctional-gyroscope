@@ -1,6 +1,6 @@
 # Flies actively tune the sensitivity of their multifunctional gyroscope
 
-You will find here the data files and scripts XXXX
+You will find here the data files and scripts associated with:
 
 >  Linked article: XXX
 
