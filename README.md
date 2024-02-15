@@ -10,7 +10,7 @@ You will find here the data files and scripts associated with:
 Run the python script 'Script_Fig1to4.py' 
 
 ``` 
-Data are located in the file 'Fig1to4' in pickle format. 
+Data files are located in the file 'Fig1to4' in pickle format. 
 ```
 
 ## Fig 5: 
