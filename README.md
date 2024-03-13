@@ -19,6 +19,6 @@ Data files are located in the file 'Fig5>data'
 ## Fig. 6: 
 In File 'Fig6' run the Matlab script XXXX 
 ``` 
-Data from  XXX: see XXX
+Data files are located in the file 'Fig6'  
 ```
 
