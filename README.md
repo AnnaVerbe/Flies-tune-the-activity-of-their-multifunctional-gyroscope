@@ -1,6 +1,6 @@
 # Flies actively tune the sensitivity of their multifunctional gyroscope
 
-You will find here the data files and scripts associated with _Verbe et al. 2024. Flies actively tune the sensitivity of their multifunctional gyroscope, BioRxiv Preprint_
+You will find here the data files and scripts associated with the scientific paper: _Verbe et al. 2024. Flies actively tune the sensitivity of their multifunctional gyroscope, BioRxiv Preprint_
 
 > Link: 
 
