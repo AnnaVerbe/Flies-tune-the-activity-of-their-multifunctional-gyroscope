@@ -7,7 +7,7 @@ You will find here the data files and scripts associated with _Verbe et al. 2024
 ## Fig. 1 to 4: 
 In File 'Fig1to4' run the python script 'Script_Fig1to4.py' 
 ``` 
-Data files are located in the file 'Fig1to4' in pickle format (in a compressed file). 
+Data files are located in the file 'Fig1to4' in pickle format. 
 ```
 
 ## Fig. 5: 
