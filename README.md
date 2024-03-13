@@ -17,7 +17,7 @@ Data files are located in the file 'Fig5>data'
 ```
 
 ## Fig. 6: 
-In File 'Fig6' run the Matlab script XXXX 
+In File 'Fig6' run the Matlab script 'Figure6_Verbeetal.m'
 ``` 
 Data files are located in the file 'Fig6'  
 ```
