@@ -352,15 +352,17 @@ wsums = []
 for i in range(len(iii1musc_avgs)):
 #    musc_sum = np.mean((iii1musc_avgs[i][14:19] - np.mean(iii1musc_avgs[i][0:15]))/np.mean(iii1musc_avgs[i][0:15]))#np.sum(iii1musc_avgs[i][12:18] - np.mean(iii1musc_avgs[i][0:15]))    
 #    msums.append(musc_sum)
-    musc_sum = max((iii2musc_avgs[i][14:20] - np.mean(iii2musc_avgs[i][0:15]))/np.mean(iii2musc_avgs[i][0:15]), key=abs)#np.sum(iii1musc_avgs[i][12:18] - np.mean(iii1musc_avgs[i][0:15]))    
+    musc_sum = max((iii2musc_avgs[i][14:17] - np.mean(iii2musc_avgs[i][0:15]))/np.mean(iii2musc_avgs[i][0:15]), key=abs)#np.sum(iii1musc_avgs[i][12:18] - np.mean(iii1musc_avgs[i][0:15]))    
+    #musc_sum = max(iii2musc_avgs[i])   
     msums.append(musc_sum)
-    wing_sum = max(wing_avgs[i][924:1301]- np.mean(wing_avgs[i][0:1000],axis=0), key=abs)#np.sum(wing_avgs[i][800:1200]- np.mean(wing_avgs[i][0:1000],axis=0))
+    wing_sum = max(wing_avgs[i][924:1122]- np.mean(wing_avgs[i][0:1000],axis=0), key=abs)#np.sum(wing_avgs[i][800:1200]- np.mean(wing_avgs[i][0:1000],axis=0))
     wsums.append(wing_sum)    
     #wing_sum = np.argsort(np.abs(wing_avgs[i]))    
     #wsums.append(wing_avgs[i][wing_sum])
 
 ax3 = fig.add_subplot(6, 2, 8)
 ax3.plot(stats.zscore(msums,ddof=1),'--ko')
+#ax3.plot(msums,'--ko')
 
 #ax.spines['bottom'].set_bounds(0, 1)
 ax3.set_xlim((-1, 10))
@@ -377,8 +379,8 @@ ax3.spines['left'].set_bounds(-1, 1)
 ax3.get_xaxis().set_visible(False)
 ax3.yaxis.set_ticks_position('left')  
 ax3.spines['right'].set_bounds(-1, 1)
-ax3.set_ylim((-3.5, 3.5))
-ax3.set_yticks([-1, 0, 1]) 
+ax3.set_ylim((-3, 3))
+ax3.set_yticks([-1, 0,1]) 
 ax3.yaxis.set_ticks_position('left') 
 
 
@@ -484,7 +486,7 @@ msums = []
 #    msums.append(musc_sum)
 
 for i in range(len(b1musc_avgs)):
-    musc_sum = max((b1musc_avgs[i][14:20] - np.mean(b1musc_avgs[i][0:15]))/np.mean(b1musc_avgs[i][0:15]), key=abs)#np.sum(b1musc_avgs[i][12:18] - np.mean(b1musc_avgs[i][0:15]))   
+    musc_sum = max((b1musc_avgs[i][14:17] - np.mean(b1musc_avgs[i][0:15]))/np.mean(b1musc_avgs[i][0:15]), key=abs)#np.sum(b1musc_avgs[i][12:18] - np.mean(b1musc_avgs[i][0:15]))   
     msums.append(musc_sum)
 
 ax10 = fig.add_subplot(6, 2, 4)
@@ -509,4 +511,4 @@ ax10.yaxis.set_ticks_position('left')
 
   
 
-#plt.savefig('/Volumes/My Book/postdoc data/closed-loop muscle imaging/' + '231027_allsacc_decsumm.pdf', format = 'pdf', dpi = 600)
+plt.savefig('/Volumes/My Book/postdoc data/closed-loop muscle imaging/' + '240422_allsacc_decsumm.pdf', format = 'pdf', dpi = 600)
