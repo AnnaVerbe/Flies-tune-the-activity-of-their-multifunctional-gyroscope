@@ -1,4 +1,4 @@
-# Flies actively tune the sensitivity of their multifunctional gyroscope
+# Flies tune the activity of their multifunctional gyroscope
 
 You will find here the data files and scripts associated with the scientific paper: _Verbe et al. 2024. Flies actively tune the sensitivity of their multifunctional gyroscope, BioRxiv_
 
